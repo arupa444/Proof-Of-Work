@@ -38,7 +38,7 @@ Proof of Work (PoW) is a consensus mechanism used in blockchain networks like Bi
 ## Usage
 
 Run the script using Node.js:
-```bash
+
 node pow.js
 
 ## Code Explanation
@@ -56,6 +56,7 @@ The main class `POW` includes the following methods:
 
 code Usage:
 
+```bash
 const version = 0x20000000;
 const prevBlockHash = '0000000000000000000769c0f55d1ed7d45b8c7b94e6780a6f8e1b682a35c427';
 const merkleRoot = '7f8c0b6467e7c6465c8f8b1e5b94707e9c8b2c2d6182d8b1e9d8b2d1d2c7c827';
