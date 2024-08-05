@@ -123,5 +123,5 @@ if (result) {
     console.log(`Valid nonce found: ${result.nonce}`);
     console.log(`Hash: ${result.hashResult}`);
 } else {
-    console.log('No valid nonce found.');
+    console.log('No valid nonce found. SO, either your loop is in a bad condition or there is a problem in code or else look up for the target element ( difficultyTarget!! )');
 }
